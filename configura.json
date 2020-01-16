@@ -1,0 +1,20 @@
+{
+    "Hello World": {
+        "nome": "Hello World",
+        "script": "hello.py",
+        "periodicidade": 1,
+        "executaAoIniciar": true,
+        "horarioFim": "23:00",
+        "horarioInicio": "07:00",
+        "configurado": false
+    },
+    "Goodbye": {
+        "nome": "Goodbye",
+        "script": "goodbye.py",
+        "periodicidade": 2,
+        "executaAoIniciar": true,
+        "horarioFim": "23:00",
+        "horarioInicio": "07:00",
+        "configurado": false
+    }
+}
