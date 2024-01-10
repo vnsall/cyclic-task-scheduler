@@ -60,6 +60,8 @@ def carrega(tipo):
 
 
 def gravaConfi(d):
+    with open('configura.json', 'r+') as file:
+        file.truncate()
     json.dump(d, open('configura.json', 'w'))
 
 

@@ -8,8 +8,6 @@ def trataErro():
     pass
 
 
-   
-
 def dispara():
     execu = json.load(open('executa.json', 'r'))
     #confi = json.load(open('configura.json', 'r'))
