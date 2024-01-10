@@ -3,8 +3,10 @@
 
 from time import sleep
 from datetime import datetime
-
 import dispara
+import inclui_flask
+
+inclui_flask.app.run()
 
 CICLO_SEGUNDOS = 10
 
